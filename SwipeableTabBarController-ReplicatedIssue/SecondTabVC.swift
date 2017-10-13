@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwipeableTabBarController
 
 class SecondTabVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     
@@ -42,16 +43,28 @@ class SecondTabVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
         cell.title.text = itemNames[indexPath.row]
         return cell
     }
+    
+    // Disable swipe when dragging begins
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        setTabBarSwipe(enabled: false)
+    }
+    
+    // Enable swipe when dragging is about to end
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        setTabBarSwipe(enabled: true)
+    }
 }
 
 // Horizontal collection view cell at the top
 class TopHorizontalCollectionViewCell: UICollectionViewCell{
+   
     @IBOutlet weak var itemName: UILabel!
     
 }
 
 // Vertical collection view at the bottom
 class BottomVerticalCollectionViewCell: UICollectionViewCell{
+
     @IBOutlet weak var title: UILabel!
     
 }
