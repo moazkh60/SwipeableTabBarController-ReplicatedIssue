@@ -9,7 +9,7 @@ Replicating screen overlap issue in swipeable tab bar controller. This project i
 ![Swift 3.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg?style=flat-square)
 [![codebeat badge](https://codebeat.co/badges/0cb2f5b2-5bd1-4cbe-8581-3ca3df0e79ab)](https://codebeat.co/projects/github-com-marcosgriselli-swipeabletabbarcontroller-master)
 
-<a href="url"><img src="./GIFs/SwipeableTabBarController.gif"></a><br />
+<a href="url"><img src="https://github.com/marcosgriselli/SwipeableTabBarController/tree/master/GIFs/SwipeableTabBarController.gif"></a><br />
 
 
 The iPhone mockups can be found [here](https://pixabay.com/en/phone-iphone-black-cellphone-1830479/) &  [here](https://pixabay.com/en/iphone-iphone-6s-smartphone-mobile-1936818/).
@@ -27,13 +27,6 @@ https://github.com/marcosgriselli/SwipeableTabBarController/issues/19
 5. After it's stuck try to switch the tabs and the screen will start to overlap
 
 ## GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
 
   The GNU General Public License is a free, copyleft license for
 software and other kinds of works.
